@@ -1,4 +1,4 @@
-# SSM-Docker
+# AWS SSM on Docker
 
 ## How to use:
 
@@ -30,3 +30,7 @@ Alternatively, you can directly run the Docker command:
 docker run --rm -it -v "$HOME/.aws:/root/.aws" aws-cli-with-session-manager-plugin \
   ssm start-session --target [your-instance-id] --profile [your-profile]
 ```
+
+## FYI:
+
+[What is AWS Systems Manager?](https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html)
